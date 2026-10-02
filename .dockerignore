@@ -14,7 +14,6 @@
 !public/**
 !scripts/
 !scripts/**
-!.grok/
 !.grok/app-env.json
 scripts/**/*.test.mjs
 scripts/**/*.test.ts
