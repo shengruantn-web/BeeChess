@@ -1,0 +1,21 @@
+# Dependencies and build output
+node_modules/
+.output/
+.vercel/
+.tanstack/
+.nitro/
+dist/
+
+# Local workspace files (logs, QA captures, platform docs)
+.grok/*
+!.grok/app-env.json
+AGENTS.md
+.project_id
+.node_modules.lock
+screenshots/
+artifacts/
+
+# Secrets and OS noise
+.env*
+*.log
+.DS_Store

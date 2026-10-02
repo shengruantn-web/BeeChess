@@ -1,0 +1,21 @@
+# Include only the files required to build this app.
+**
+!Dockerfile
+!package.json
+!package-lock.json
+!vite.config.ts
+!tsconfig.json
+!.project_id
+!src/
+!src/**
+!server/
+!server/**
+!public/
+!public/**
+!scripts/
+!scripts/**
+!.grok/
+!.grok/app-env.json
+scripts/**/*.test.mjs
+scripts/**/*.test.ts
+src/**/*.test.ts
